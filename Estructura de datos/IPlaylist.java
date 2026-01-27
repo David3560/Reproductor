@@ -15,7 +15,7 @@ public interface IPlaylist {
      *          Precondición: el título de la canción debe ser válido (no vacío).
      * @throws IllegalArgumentException si c es null o si su título no es válido.
      */
-    void agregarCancion(Cancion c);
+    void agregarCancion(Cancion Cancion);
 
     /**
      * Elimina una canción de la lista de reproducción a partir de su título.
@@ -108,3 +108,4 @@ class Cancion {
         this.duracion = duracion;
     }
 }
+
